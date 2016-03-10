@@ -37,7 +37,7 @@ def val(cell):
 
 def peptide_expr_from_sheet(sheet):
     rows = []
-    for row in sheet.iter_rows('A3:D{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:D{}'.format(sheet.max_row)):
         if not row:
             continue
         if val(row[0]):
@@ -61,7 +61,7 @@ def peptide_expr_from_sheet(sheet):
 
 def receptor_expr_from_sheet(sheet):
     rows = []
-    for row in sheet.iter_rows('A3:D{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:D{}'.format(sheet.max_row)):
         if not row:
             continue
         if val(row[0]):
@@ -83,7 +83,7 @@ def receptor_expr_from_sheet(sheet):
 
 def ligand_mapping_from_sheet(sheet):
     rows = []
-    for row in sheet.iter_rows('A3:J{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:J{}'.format(sheet.max_row)):
         if not row:
             continue
         if val(row[0]) and val(row[1]):

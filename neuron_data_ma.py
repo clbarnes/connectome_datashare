@@ -35,7 +35,7 @@ def val(cell):
 
 def ma_cell_sheet_to_rows(sheet, include_weak=False):
     rows = []
-    for row in sheet.iter_rows('A3:E{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:E{}'.format(sheet.max_row)):
         if not row:
             continue
         if row[0].value:
@@ -57,7 +57,7 @@ def ma_cell_sheet_to_rows(sheet, include_weak=False):
 
 def rec_cell_sheet_to_exprs(sheet):
     rec_expr_rows = []
-    for row in sheet.iter_rows('A3:E{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:E{}'.format(sheet.max_row)):
         if not row:
             continue
 
@@ -86,7 +86,7 @@ def all_ligand_rows(wb):
 
 def ligand_sheet_to_rows(sheet):
     ligand_rows = []
-    for row in sheet.iter_rows('A3:H{}'.format(sheet.get_highest_row())):
+    for row in sheet.iter_rows('A3:H{}'.format(sheet.max_row)):
         if not row:
             continue
 

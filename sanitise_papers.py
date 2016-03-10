@@ -19,7 +19,7 @@ def papers_to_url_auto(input_file='paper_data/papers_short.txt', output_file='pa
 
     try:
         with open(output_file) as f:
-            urls = json.load(f)
+            urls = {key: value for key, value in json.load(f).items() if key in papers}
     except FileNotFoundError:
         urls = dict()
 
@@ -58,7 +58,7 @@ def papers_to_url_manual(input_file='paper_data/urls.json', output_file='paper_d
 
     try:
         with open(output_file) as f:
-            new = json.load(f)
+            new = {key: value for key, value in json.load(f).items() if key in original}
     except FileNotFoundError:
         new = dict()
 
@@ -74,7 +74,7 @@ def papers_to_url_manual(input_file='paper_data/urls.json', output_file='paper_d
         json.dump(new, f, indent=2, sort_keys=True)
 
 
-YEAR_RE = re.compile(r'\(\d\d\d\d\)')
+YEAR_RE = re.compile(r'\b\d{4}\b')
 
 
 def papers_to_names(input_file='paper_data/papers_short.txt', output_file='paper_data/names.json'):
