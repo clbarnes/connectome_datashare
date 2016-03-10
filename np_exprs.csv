@@ -309,28 +309,28 @@ VA,Receptor,NPR-3,"Keating et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/1452
 VB,Receptor,CKR-2,"Hu et al., 2011",http://www.ncbi.nlm.nih.gov/pubmed/21745640
 VB,Receptor,NPR-3,"Keating et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14521838
 VD,Receptor,NPR-1,"Coates et al., 2002",http://www.ncbi.nlm.nih.gov/pubmed/12410311
-FLP-1,Ligand,NPR-11,UNKNOWN,UNKNOWN
-FLP-1,Ligand,NPR-4,UNKNOWN,UNKNOWN
-FLP-10,Ligand,EGL-6,UNKNOWN,UNKNOWN
-FLP-13,Ligand,FRPR-4,UNKNOWN,UNKNOWN
-FLP-14,Ligand,NPR-11,UNKNOWN,UNKNOWN
-FLP-15,Ligand,NPR-3,UNKNOWN,UNKNOWN
-FLP-17,Ligand,EGL-6,UNKNOWN,UNKNOWN
-FLP-18,Ligand,NPR-1,UNKNOWN,UNKNOWN
-FLP-18,Ligand,NPR-11,UNKNOWN,UNKNOWN
-FLP-18,Ligand,NPR-4,UNKNOWN,UNKNOWN
-FLP-18,Ligand,NPR-5,UNKNOWN,UNKNOWN
-FLP-2,Ligand,FRPR-18,UNKNOWN,UNKNOWN
-FLP-21,Ligand,NPR-1,UNKNOWN,UNKNOWN
-FLP-21,Ligand,NPR-11,UNKNOWN,UNKNOWN
-FLP-21,Ligand,NPR-2,UNKNOWN,UNKNOWN
-FLP-21,Ligand,NPR-5,UNKNOWN,UNKNOWN
-FLP-4,Ligand,NPR-4,UNKNOWN,UNKNOWN
-FLP-5,Ligand,NPR-11,UNKNOWN,UNKNOWN
-NLP-1,Ligand,NPR-11,UNKNOWN,UNKNOWN
-NLP-12,Ligand,CKR-2,UNKNOWN,UNKNOWN
-NLP-44,Ligand,NMUR-2,UNKNOWN,UNKNOWN
-NLP-47,Ligand,GNRR-1,UNKNOWN,UNKNOWN
-NTC-1,Ligand,NTR-1,UNKNOWN,UNKNOWN
-PDF-1,Ligand,PDFR-1,UNKNOWN,UNKNOWN
-PDF-2,Ligand,PDFR-1,UNKNOWN,UNKNOWN
+FLP-1,Ligand,NPR-11,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-1,Ligand,NPR-4,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-10,Ligand,EGL-6,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-13,Ligand,FRPR-4,"Nelson et al., 2014",http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0142938
+FLP-14,Ligand,NPR-11,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-15,Ligand,NPR-3,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-17,Ligand,EGL-6,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-18,Ligand,NPR-1,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-18,Ligand,NPR-11,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-18,Ligand,NPR-4,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-18,Ligand,NPR-5,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-2,Ligand,FRPR-18,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-21,Ligand,NPR-1,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-21,Ligand,NPR-11,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-21,Ligand,NPR-2,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-21,Ligand,NPR-5,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-4,Ligand,NPR-4,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+FLP-5,Ligand,NPR-11,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+NLP-1,Ligand,NPR-11,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+NLP-12,Ligand,CKR-2,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+NLP-44,Ligand,NMUR-2,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+NLP-47,Ligand,GNRR-1,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+NTC-1,Ligand,NTR-1,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
+PDF-1,Ligand,PDFR-1,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+PDF-2,Ligand,PDFR-1,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm

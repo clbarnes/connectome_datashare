@@ -81,7 +81,16 @@ def receptor_expr_from_sheet(sheet):
     return sorted(rows)
 
 
+def ligand_citations():
+    with open('paper_data/ligand_citations.tsv') as f:
+        reader = csv.reader(f, delimiter='\t')
+        ret = {(row[0], row[1]): row[2].strip() for row in reader}
+
+    return ret
+
+
 def ligand_mapping_from_sheet(sheet):
+    citations = ligand_citations()
     rows = []
     for row in sheet.iter_rows('A3:J{}'.format(sheet.max_row)):
         if not row:
@@ -99,12 +108,16 @@ def ligand_mapping_from_sheet(sheet):
                 if not rec_cell or not val(rec_cell):
                     break
 
+                peptide = pep.upper()
+                receptor = val(rec_cell).upper()
+                citation = citations[(peptide, receptor)]
+
                 rows.append([
-                    pep.upper(),
+                    peptide,
                     'Ligand',
-                    val(rec_cell).upper(),
-                    'UNKNOWN',
-                    'UNKNOWN'
+                    receptor,
+                    names[citation],
+                    urls[citation]
                 ])
 
     return sorted(rows)

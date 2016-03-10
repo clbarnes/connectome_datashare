@@ -1,4 +1,5 @@
 Alkema, M. J., Hunter-Ensor, M., Ringstad, N., & Horvitz, H. R. (2005). Tyramine functions independently of octopamine in the Caenorhabditis elegans nervous system. Neuron, 46(2), 247-260.
+Altun, Z.F. 2011. Neurotransmitter Receptors in C. elegans. In WormAtlas. doi:10.3908/wormatlas.5.202. Revision: February 14, 2013.
 Barrios, A., Ghosh, R., Fang, C., Emmons, S. W., & Barr, M. M. (2012). PDF-1 neuropeptide signaling modulates a neural circuit for mate-searching behavior in C. elegans. Nature neuroscience, 15(12), 1675-7682.
 Beets et al., 2012: Vasopressin/oxytocine-related signaling regulates gustatory associative learning in C. elegans
 Beets, I., Janssen, T., Meelkop, E., Temmerman, L., Suetens, N., Rademakers, S., ... & Schoofs, L. (2012). Vasopressin/oxytocin-related signaling regulates gustatory associative learning in C. elegans. Science, 338(6106), 543-545.
