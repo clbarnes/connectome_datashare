@@ -8,7 +8,7 @@ import pytest
 
 
 DB_DUMP_PATH = 'combined.csv'
-MONOAMINES = {'Dopamine', 'Serotonin', 'Tyramine', 'Octopamine'}
+# MONOAMINES = {'Dopamine', 'Serotonin', 'Tyramine', 'Octopamine'}
 
 
 # dummy
@@ -37,19 +37,18 @@ class Data:
         ligand_mappings = defaultdict(set)
         evidence = dict()
 
-        with open('combined.csv') as f:
+        rows_to_dicts = {  # I hate not having switch/case
+            'Receptor': lambda row: neurons[row[0]].receptors.add(row[2]),
+            'Neurotransmitter': lambda row: neurons[row[0]].neurotransmitters.add(row[2]),
+            'Neuropeptide': lambda row: neurons[row[0]].neuropeptides.add(row[2]),
+            'Ligand': lambda row: ligand_mappings[row[0]].add(row[2])
+        }
+
+        with open(DB_DUMP_PATH) as f:
             reader = csv.reader(f)
             next(reader)
             for row in reader:
-                if row[1] == 'Receptor':
-                    neurons[row[0]].receptors.add(row[2])
-                elif row[1] == 'Neurotransmitter':
-                    neurons[row[0]].neurotransmitters.add(row[2])
-                elif row[1] == 'Neuropeptide':
-                    neurons[row[0]].neuropeptides.add(row[2])
-                elif row[1] == 'Ligand':
-                    ligand_mappings[row[0]].add(row[2])
-
+                rows_to_dicts[row[1]](row)
                 evidence[(row[0], row[2])] = Evidence(row[3], row[4])
 
         return neurons, ligand_mappings, evidence
@@ -96,6 +95,10 @@ class ExtrasynNetTest:
         Check that there are edges.
         """
         assert self.net.edges()
+
+    def test_edges_have_evidence(self):
+        for src, tgt, data in self.net.edges_iter(data=True):
+            assert data['evidence']
 
 
 class MANetTest(unittest.TestCase, ExtrasynNetTest):
