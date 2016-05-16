@@ -16,7 +16,7 @@ ADA,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 ADE,Receptor,DOP-2,"Suo et al., 2003",http://onlinelibrary.wiley.com/doi/10.1046/j.1471-4159.2003.01896.x/full
 ADE,Receptor,OCTR-1,"Wragg et al., 2007",http://www.ncbi.nlm.nih.gov/pubmed/18057198
 ADE,Receptor,TYRA-3,"Wragg et al., 2007",http://www.ncbi.nlm.nih.gov/pubmed/18057198
-ADF,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
+ADF,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 ADL,Receptor,SER-6,"Mills et al., 2012",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3273394/
 ADL,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3154120/
 AFD,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3154120/
@@ -26,7 +26,6 @@ AIB,Receptor,SER-4,"Gürel et al., 2012",https://dspace.mit.edu/handle/1721.1/85
 AIM,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 AIM,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 AIM,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3154120/
-AIN,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 AIY,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 AIY,Receptor,MOD-1,"Li et al., 2012",http://www.nature.com/ncomms/journal/v3/n4/full/ncomms1780.html?WT.ec_id=NCOMMS-20120410
 AIY,Receptor,OCTR-1,"Wragg et al., 2007",http://www.ncbi.nlm.nih.gov/pubmed/18057198
@@ -55,12 +54,13 @@ ASI,Receptor,OCTR-1,"Wragg et al., 2007",http://www.ncbi.nlm.nih.gov/pubmed/1805
 ASI,Receptor,SER-6,"Mills et al., 2012",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3273394/
 ASI,Receptor,TYRA-2,"Rex et al., 2005",http://www.ncbi.nlm.nih.gov/pubmed/15953361
 ASK,Receptor,DOP-3,"Ezak et al., 2010",http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009487
-ASK,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 ASK,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3154120/
 AUA,Receptor,DOP-1,"Sanyal et al., 2004",http://www.ncbi.nlm.nih.gov/pubmed/14739932
 AUA,Receptor,SER-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 AUA,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3154120/
 AVB,Receptor,LGC-55,"Pirri et al., 2009",http://www.ncbi.nlm.nih.gov/pubmed/19477154
+AVF,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+AVF,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 AVH,Receptor,SER-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 AVJ,Receptor,SER-5,"Cunningham et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/22768843
 AVL,Receptor,DOP-4,"Sugiura et al., 2005",http://onlinelibrary.wiley.com/doi/10.1111/j.1471-4159.2005.03268.x/full
@@ -91,6 +91,7 @@ DVA,Receptor,SER-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/1456
 DVA,Receptor,SER-4,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 DVC,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/10.1002/dneu.20340/abstract
 DVC,Receptor,SER-4,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
+FLP,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 HSN,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 HSN,Receptor,LGC-55,"Pirri et al., 2009",http://www.ncbi.nlm.nih.gov/pubmed/19477154
 I1,Receptor,DOP-4,"Sugiura et al., 2005",http://onlinelibrary.wiley.com/doi/10.1111/j.1471-4159.2005.03268.x/full
@@ -152,6 +153,7 @@ RIA,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/1
 RIA,Receptor,SER-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 RIB,Receptor,DOP-1,"Sanyal et al., 2004",http://www.ncbi.nlm.nih.gov/pubmed/14739932
 RIB,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
+RIB,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 RIB,Receptor,SER-4,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 RIC,Receptor,DOP-3,"Suo et al., 2009",http://europepmc.org/abstract/MED/19609300
 RIC,Receptor,MOD-1,"Li et al., 2012",http://www.nature.com/ncomms/journal/v3/n4/full/ncomms1780.html?WT.ec_id=NCOMMS-20120410
@@ -161,7 +163,7 @@ RIC,Receptor,SER-6,"Yoshida et al., 2014",http://onlinelibrary.wiley.com/doi/10.
 RID,Receptor,DOP-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 RID,Receptor,MOD-1,"Li et al., 2012",http://www.nature.com/ncomms/journal/v3/n4/full/ncomms1780.html?WT.ec_id=NCOMMS-20120410
 RID,Receptor,SER-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
-RIF,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
+RIH,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 RIM,Receptor,DOP-1,"Sanyal et al., 2004",http://www.ncbi.nlm.nih.gov/pubmed/14739932
 RIM,Receptor,MOD-1,"Li et al., 2012",http://www.nature.com/ncomms/journal/v3/n4/full/ncomms1780.html?WT.ec_id=NCOMMS-20120410
 RIM,Receptor,SER-4,"Shyn et al., 2003",http://www2.mrc-lmb.cam.ac.uk/groups/wschafer/Cregg_thesis.pdf
@@ -184,6 +186,9 @@ SIA,Receptor,SER-3,"Suo et al., 2006",http://www.jneurosci.org/content/26/40/100
 SIA,Receptor,SER-6,"Yoshida et al., 2014",http://onlinelibrary.wiley.com/doi/10.1002/jnr.23345/abstract
 SIB,Receptor,DOP-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 SMD,Receptor,LGC-55,"Pirri et al., 2009",http://www.ncbi.nlm.nih.gov/pubmed/19477154
+URA,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+URX,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+URY,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 URY,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/10.1002/dneu.20340/abstract
 VA,Receptor,DOP-1,"Chase et al., 2004",http://www.nature.com/neuro/journal/v7/n10/full/nn1316.html
 VA,Receptor,DOP-3,"Chase et al., 2004",http://www.nature.com/neuro/journal/v7/n10/full/nn1316.html

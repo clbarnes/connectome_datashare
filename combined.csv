@@ -26,6 +26,7 @@ FLP-4,Ligand,NPR-4,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.ht
 FLP-5,Ligand,NPR-11,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
 NLP-1,Ligand,NPR-11,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
 NLP-12,Ligand,CKR-2,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
+NLP-24,Ligand,NPR-17,"Cheong et al. et al., 2015",http://lens.elifesciences.org/06683/index.html
 NLP-44,Ligand,NMUR-2,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
 NLP-47,Ligand,GNRR-1,"Altun et al., 2011",http://www.wormatlas.org/NTRmainframe.htm
 NTC-1,Ligand,NTR-1,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
@@ -483,12 +484,12 @@ ADEL,Receptor,TYRA-3,"Wragg et al., 2007",http://www.ncbi.nlm.nih.gov/pubmed/180
 ADER,Receptor,DOP-2,"Suo et al., 2003",http://onlinelibrary.wiley.com/doi/10.1046/j.1471-4159.2003.01896.x/full
 ADER,Receptor,OCTR-1,"Wragg et al., 2007",http://www.ncbi.nlm.nih.gov/pubmed/18057198
 ADER,Receptor,TYRA-3,"Wragg et al., 2007",http://www.ncbi.nlm.nih.gov/pubmed/18057198
-ADFL,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
+ADFL,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 ADFL,Receptor,NPR-2,"Luo et al., 2015",http://www.genetics.org/content/199/2/523
 ADFL,Receptor,NPR-5,"Cohen et al., 2009",http://www.sciencedirect.com/science/article/pii/S1550413109000412
 ADFL,Receptor,NTR-1,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
 ADFL,Receptor,NTR-2,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
-ADFR,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
+ADFR,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 ADFR,Receptor,NPR-2,"Luo et al., 2015",http://www.genetics.org/content/199/2/523
 ADFR,Receptor,NPR-5,"Cohen et al., 2009",http://www.sciencedirect.com/science/article/pii/S1550413109000412
 ADFR,Receptor,NTR-1,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
@@ -521,8 +522,6 @@ AIML,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/art
 AIMR,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 AIMR,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 AIMR,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3154120/
-AINL,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
-AINR,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 AIYL,Receptor,CKR-2,"Wenick et al., 2004",http://www.sciencedirect.com/science/article/pii/S1534580704001650
 AIYL,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 AIYL,Receptor,MOD-1,"Li et al., 2012",http://www.nature.com/ncomms/journal/v3/n4/full/ncomms1780.html?WT.ec_id=NCOMMS-20120410
@@ -651,11 +650,9 @@ ASIR,Receptor,TYRA-2,"Rex et al., 2005",http://www.ncbi.nlm.nih.gov/pubmed/15953
 ASJL,Receptor,NPR-5,"Cohen et al., 2009",http://www.sciencedirect.com/science/article/pii/S1550413109000412
 ASJR,Receptor,NPR-5,"Cohen et al., 2009",http://www.sciencedirect.com/science/article/pii/S1550413109000412
 ASKL,Receptor,DOP-3,"Ezak et al., 2010",http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009487
-ASKL,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 ASKL,Receptor,NPR-5,"Cohen et al., 2009",http://www.sciencedirect.com/science/article/pii/S1550413109000412
 ASKL,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3154120/
 ASKR,Receptor,DOP-3,"Ezak et al., 2010",http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009487
-ASKR,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 ASKR,Receptor,NPR-5,"Cohen et al., 2009",http://www.sciencedirect.com/science/article/pii/S1550413109000412
 ASKR,Receptor,TYRA-3,"Bendesky et al., 2011",http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3154120/
 AUAL,Receptor,DOP-1,"Sanyal et al., 2004",http://www.ncbi.nlm.nih.gov/pubmed/14739932
@@ -676,7 +673,11 @@ AVDL,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/2
 AVDR,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
 AVEL,Receptor,FRPR-4,"Nelson et al., 2014",http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0142938
 AVER,Receptor,FRPR-4,"Nelson et al., 2014",http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0142938
+AVFL,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+AVFL,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 AVFL,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
+AVFR,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+AVFR,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 AVFR,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
 AVG,Receptor,NPR-17,"Harris et al., 2010",http://www.ncbi.nlm.nih.gov/pubmed/20534837
 AVG,Receptor,NTR-2,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
@@ -821,8 +822,10 @@ DVA,Receptor,SER-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/1456
 DVA,Receptor,SER-4,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 DVC,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/10.1002/dneu.20340/abstract
 DVC,Receptor,SER-4,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
+FLPL,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 FLPL,Receptor,NPR-2,"Luo et al., 2015",http://www.genetics.org/content/199/2/523
 FLPL,Receptor,PDFR-1,"Janssen et al., 2008",http://www.ncbi.nlm.nih.gov/pubmed/18390545
+FLPR,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 FLPR,Receptor,NPR-2,"Luo et al., 2015",http://www.genetics.org/content/199/2/523
 FLPR,Receptor,PDFR-1,"Janssen et al., 2008",http://www.ncbi.nlm.nih.gov/pubmed/18390545
 HSNL,Receptor,EGL-6,"Ringstad et al., 2008",http://www.nature.com/neuro/journal/v11/n10/full/nn.2186.html
@@ -1024,9 +1027,11 @@ RIAR,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/
 RIAR,Receptor,SER-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 RIBL,Receptor,DOP-1,"Sanyal et al., 2004",http://www.ncbi.nlm.nih.gov/pubmed/14739932
 RIBL,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
+RIBL,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 RIBL,Receptor,SER-4,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 RIBR,Receptor,DOP-1,"Sanyal et al., 2004",http://www.ncbi.nlm.nih.gov/pubmed/14739932
 RIBR,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
+RIBR,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 RIBR,Receptor,SER-4,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 RICL,Receptor,DOP-3,"Suo et al., 2009",http://europepmc.org/abstract/MED/19609300
 RICL,Receptor,MOD-1,"Li et al., 2012",http://www.nature.com/ncomms/journal/v3/n4/full/ncomms1780.html?WT.ec_id=NCOMMS-20120410
@@ -1043,14 +1048,13 @@ RICR,Receptor,SER-6,"Yoshida et al., 2014",http://onlinelibrary.wiley.com/doi/10
 RID,Receptor,DOP-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
 RID,Receptor,MOD-1,"Li et al., 2012",http://www.nature.com/ncomms/journal/v3/n4/full/ncomms1780.html?WT.ec_id=NCOMMS-20120410
 RID,Receptor,SER-2,"Tsalik et al., 2003",http://www.ncbi.nlm.nih.gov/pubmed/14568548
-RIFL,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 RIFL,Receptor,NTR-2,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
 RIFL,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
-RIFR,Receptor,DOP-5,"Schafer et al., (n.d.)",THIS STUDY
 RIFR,Receptor,NTR-2,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
 RIFR,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
 RIGL,Receptor,NPR-1,"Coates et al., 2002",http://www.ncbi.nlm.nih.gov/pubmed/12410311
 RIGR,Receptor,NPR-1,"Coates et al., 2002",http://www.ncbi.nlm.nih.gov/pubmed/12410311
+RIH,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 RIML,Receptor,DOP-1,"Sanyal et al., 2004",http://www.ncbi.nlm.nih.gov/pubmed/14739932
 RIML,Receptor,MOD-1,"Li et al., 2012",http://www.nature.com/ncomms/journal/v3/n4/full/ncomms1780.html?WT.ec_id=NCOMMS-20120410
 RIML,Receptor,SER-4,"Shyn et al., 2003",http://www2.mrc-lmb.cam.ac.uk/groups/wschafer/Cregg_thesis.pdf
@@ -1145,16 +1149,26 @@ SMDVL,Receptor,LGC-55,"Pirri et al., 2009",http://www.ncbi.nlm.nih.gov/pubmed/19
 SMDVL,Receptor,NTR-2,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
 SMDVR,Receptor,LGC-55,"Pirri et al., 2009",http://www.ncbi.nlm.nih.gov/pubmed/19477154
 SMDVR,Receptor,NTR-2,"Garrison et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23112335
+URADL,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+URADR,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+URAVL,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+URAVR,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
+URXL,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 URXL,Receptor,NPR-1,"Coates et al., 2002",http://www.ncbi.nlm.nih.gov/pubmed/12410311
 URXL,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
+URXR,Receptor,DOP-6,"Schafer et al., (n.d.)",THIS STUDY
 URXR,Receptor,NPR-1,"Coates et al., 2002",http://www.ncbi.nlm.nih.gov/pubmed/12410311
 URXR,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
+URYDL,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 URYDL,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
 URYDL,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/10.1002/dneu.20340/abstract
+URYDR,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 URYDR,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
 URYDR,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/10.1002/dneu.20340/abstract
+URYVL,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 URYVL,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
 URYVL,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/10.1002/dneu.20340/abstract
+URYVR,Receptor,LGC-53,"Schafer et al., (n.d.)",THIS STUDY
 URYVR,Receptor,PDFR-1,"Barrios et al., 2012",http://www.ncbi.nlm.nih.gov/pubmed/23143519
 URYVR,Receptor,SER-1,"Dernovici et al., 2007",http://onlinelibrary.wiley.com/doi/10.1002/dneu.20340/abstract
 VA1,Receptor,CKR-2,"Hu et al., 2011",http://www.ncbi.nlm.nih.gov/pubmed/21745640

@@ -102,12 +102,13 @@ def ligand_sheet_to_rows(sheet):
 
 def get_sheet(workbook, name):
     sheet = workbook.get_sheet_by_name(name)
-    sheet.calculate_dimension(force=True)
+    print(name)
+    # sheet.calculate_dimension(force=True)
     return sheet
 
 
 def main(include_weak):
-    wb = load_workbook(LATEST_DATA, read_only=True)
+    wb = load_workbook(LATEST_DATA)
     ma_sht = get_sheet(wb, ma_sht_name)
     rec_sht = get_sheet(wb, rec_sht_name)
 
